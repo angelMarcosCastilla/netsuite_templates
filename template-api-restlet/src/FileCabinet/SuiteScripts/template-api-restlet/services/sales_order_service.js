@@ -1,6 +1,6 @@
-defne(["../repository/sale_order_repository.js"], function (SaleOrderRepository) {
+define(['../repository/sale_order_repository'], function (SaleOrderRepository) {
     class SalesOrderService {
-        static getAll(payload) {
+        static getAll() {
             return SaleOrderRepository.getAll();
         }
         static create(payload) {

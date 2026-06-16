@@ -20,38 +20,38 @@ define([], function () {
     }
 
     const BadRequestError = createFactoryError({
-        name: "BadRequestError",
-        code: "BAD_REQUEST",
+        name: 'BadRequestError',
+        code: 'BAD_REQUEST',
         status: 400,
     });
 
     const UnauthorizedError = createFactoryError({
-        name: "UnauthorizedError",
-        code: "UNAUTHORIZED",
+        name: 'UnauthorizedError',
+        code: 'UNAUTHORIZED',
         status: 401,
     });
 
     const ForbiddenError = createFactoryError({
-        name: "ForbiddenError",
-        code: "FORBIDDEN",
+        name: 'ForbiddenError',
+        code: 'FORBIDDEN',
         status: 403,
     });
 
     const NotFoundError = createFactoryError({
-        name: "NotFoundError",
-        code: "NOT_FOUND",
+        name: 'NotFoundError',
+        code: 'NOT_FOUND',
         status: 404,
     });
 
     const ConflictError = createFactoryError({
-        name: "ConflictError",
-        code: "CONFLICT",
+        name: 'ConflictError',
+        code: 'CONFLICT',
         status: 409,
     });
 
     const InternalServerError = createFactoryError({
-        name: "InternalServerError",
-        code: "INTERNAL_SERVER_ERROR",
+        name: 'InternalServerError',
+        code: 'INTERNAL_SERVER_ERROR',
         status: 500,
     });
 

@@ -3,10 +3,7 @@
  * @NModuleScope SameAccount
  */
 
-define(["../../services/sales_order_service.js", "../../utils/response_handler.js"], (
-    SalesOrderService,
-    handleResponse,
-) => {
+define(['../../services/sales_order_service', '../../utils/response_handler'], (SalesOrderService, handleResponse) => {
     const ACTIONS = {
         crear_orden: SalesOrderService.getAll,
     };
@@ -17,7 +14,7 @@ define(["../../services/sales_order_service.js", "../../utils/response_handler.j
 
             if (!action || !ACTIONS[action]) {
                 throw {
-                    name: "INVALID_ACTION",
+                    name: 'INVALID_ACTION',
                     message: `La acción "${action}" no es válida.`,
                 };
             }

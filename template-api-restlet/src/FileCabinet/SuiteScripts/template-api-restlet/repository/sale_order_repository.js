@@ -1,16 +1,16 @@
-define(["N/search", "N/record"], function (search, record) {
+define(['N/search', 'N/record'], function (search, record) {
     class SaleOrderRepository {
         static getAll() {
             return [
                 {
                     id: 1,
-                    name: "Order 1",
-                    description: "Order 1 description",
+                    name: 'Order 1',
+                    description: 'Order 1 description',
                 },
                 {
                     id: 2,
-                    name: "Order 2",
-                    description: "Order 2 description",
+                    name: 'Order 2',
+                    description: 'Order 2 description',
                 },
             ];
         }

@@ -3,7 +3,7 @@
  * @NModuleScope SameAccount
  */
 
-define(["../../services/sales_order_service.js", "../../utils/response_handler.js", "../../utils/error.js"], (
+define(['../../services/sales_order_service', '../../utils/response_handler', '../../utils/error'], (
     SalesOrderService,
     handleResponse,
     Error,

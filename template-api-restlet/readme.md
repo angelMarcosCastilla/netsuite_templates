@@ -163,7 +163,7 @@ Ejemplo:
 ```javascript
 return {
     data: salesOrder,
-    message: "Orden creada correctamente",
+    message: 'Orden creada correctamente',
 };
 ```
 
@@ -240,13 +240,13 @@ InternalError;
 Ejemplo:
 
 ```javascript
-throw new Errors.BadRequestError("El customerId es obligatorio");
+throw new Errors.BadRequestError('El customerId es obligatorio');
 ```
 
 Ejemplo:
 
 ```javascript
-throw new Errors.NotFoundError("Cliente no encontrado");
+throw new Errors.NotFoundError('Cliente no encontrado');
 ```
 
 ---
@@ -385,7 +385,7 @@ throw new Errors.NotFoundError(...);
 Nunca utilizar:
 
 ```javascript
-throw "Error";
+throw 'Error';
 ```
 
 o

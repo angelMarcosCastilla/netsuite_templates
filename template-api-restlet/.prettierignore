@@ -1,0 +1,17 @@
+node_modules
+
+src/InstallationPreferences
+src/Objects
+src/Translations
+
+src/deploy.xml
+src/manifest.xml
+
+.gitignore
+package-lock.json
+package.json
+project.json
+suitecloud.config.json
+*.md
+.prettierrc
+eslint.config.mjs 

@@ -2,10 +2,7 @@
  * @NApiVersion 2.1
  * @NScriptType Restlet
  */
-define(["../api/controllers/get_controller.js", "../api/controllers/post_controller.js"], (
-    GetController,
-    PostController,
-) => {
+define(['../api/controllers/get_controller', '../api/controllers/post_controller'], (GetController, PostController) => {
     /**
      * Defines the function that is executed when a GET request is sent to a RESTlet.
      * @param {Object} requestParams - Parameters from HTTP request URL; parameters passed as an Object (for all supported
