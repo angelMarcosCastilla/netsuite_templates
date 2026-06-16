@@ -342,7 +342,7 @@ handle_response.js
 Formato:
 
 ```text
-camelCase
+kebab-case
 ```
 
 Ejemplos:
