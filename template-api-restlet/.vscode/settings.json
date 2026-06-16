@@ -1,0 +1,16 @@
+{
+    // Usa Prettier como formateador por defecto para archivos JavaScript
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+
+    // Configuración para que ESLint autocorrija errores de código al guardar
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+
+    // Asegura que VS Code valide JavaScript con el nuevo formato Flat Config
+    "eslint.useFlatConfig": true,
+
+    // Opcional: Evita que el formateador interno de VS Code pelee con Prettier
+    "javascript.format.enable": false
+}

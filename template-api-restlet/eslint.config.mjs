@@ -14,6 +14,7 @@ export default defineConfig([
             'libs/terceros/*.js', // Ignora archivos JS específicos en una ruta
             '**/*.min.js', // Ignora cualquier archivo minificado
             'suitecloud.config.js', // Ignora archivos de configuración de SuiteCloud
+            ".vscode/*", // Ignora carpetas de VSCode
         ],
     },
 
